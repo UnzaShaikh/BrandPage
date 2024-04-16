@@ -1,0 +1,91 @@
+.HeroSection {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1125px;
+    height: 613px;
+    margin: 0 auto;
+}
+
+.LeftSide{
+    width: 596px;
+    height: 613px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.LargerText{
+    Width:595px;
+    Height:306px;
+}
+
+h1{
+    font-weight: 800px;
+    font-size: 108px;
+    line-height: 102px;
+}
+
+.SmallerText{
+    Width:404px;
+    Height:91px;
+}
+
+h3{
+font-weight: 600px;
+line-height: 24px;
+color: var(--grey);
+}
+
+.btns{
+    width: 331px;
+    height: 41px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.LeftSide .btn1{
+    width: 331px;
+    height: 41px;
+    background-color: var(--red);
+    color: white;
+    border: none;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.LeftSide .btn2{
+    width: 331px;
+    height: 41px;
+    background-color: white;
+    color: var(--grey);
+    font-weight: 600;
+    border: 1px solid black;
+    font-size: 24px;
+}
+
+.Shop{
+    width: 140px;
+    height: 67px;
+}
+
+.Shop h4{
+    font-weight: 400;
+    color: var(--grey);
+}
+
+.ShopOptions{
+    width: 80px;
+    height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 12px ;
+}
+
+.rightSide{
+    width: 530px;
+    height: 487.06 ;
+    display: flex;
+    align-items: center;
+}
