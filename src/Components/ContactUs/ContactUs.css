@@ -1,0 +1,118 @@
+.Contactpage {
+    display: flex;
+    max-width: 1161px;
+    height: 702px;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.ContactForm {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1161px;
+    height: 200px;
+    flex-direction: column;
+}
+
+h1 {
+    font-weight: 800px;
+    font-size: 48px;
+}
+
+.SmallerText {
+    width: 975px;
+    height: 72px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+.Form {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1161px;
+    height: 600px;
+    
+}
+
+
+
+.Rightside {
+    Width: 479px;
+    Height: 483px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.formbtns {
+    display: flex;
+    Width: 472px;
+    Height: 105px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.customerbtns1 {
+    display: flex;
+    Width: 472px;
+    Height: 44px;
+    justify-content: space-between;
+}
+
+.btn {
+    width: 220px;
+    height: 44px;
+    background-color: var(--red);
+    color: white;
+    font-weight: 600px;
+}
+
+.customerbtns2 .btn {
+    width: 472px;
+}
+
+.formfields {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 440px;
+    height: 329px;
+}
+
+.formField {
+    height: 50px;
+    padding: 6px;
+}
+label{
+    display: inline-block;
+}
+
+.textField {
+    height: 129px;
+    padding: 6px;
+}
+
+.formfields .btn{
+    margin-top:12px;
+}
+
+.LeftSide {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 608px;
+    height: 398px;
+}
+
+.LeftSide img {
+    width: 508.87px;
+    height: 488.31px;
+}
+
+.googleMap{
+    width: 100vw;
+    height: 600px;
+}
